@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flash card</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- start of card -->
+    <div class="card" onclick="flipCard(this)">
+      <!-- start of card inner -->
+      <div class="card-inner">
+        <!-- card front -->
+        <div class="card-front">
+          <p>What is the capital of France?</p>
+        </div>
+        <!-- end of card front -->
+        <!-- start of card back -->
+        <div class="card-back">
+          <p>Paris</p>
+        </div>
+        <!-- end of card back -->
+      </div>
+      <!-- end of card inner -->
+    </div>
+    <!-- end of card -->
+
+    <!-- start of card -->
+    <div class="card" onclick="flipCard(this)">
+      <!-- start of card inner -->
+      <div class="card-inner">
+        <!-- card front -->
+        <div class="card-front">
+          <p>What is the capital of Japan?</p>
+        </div>
+        <!-- end of card front -->
+        <!-- start of card back -->
+        <div class="card-back">
+          <p>Tokyo</p>
+        </div>
+        <!-- end of card back -->
+      </div>
+      <!-- end of card inner -->
+    </div>
+    <!-- end of card -->
+
+    <!-- javaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
